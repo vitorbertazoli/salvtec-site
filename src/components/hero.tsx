@@ -1,4 +1,12 @@
+declare global {
+    function gtag(...args: any[]): void;
+}
+
 export default function Hero() {
+    const handleWhatsAppClick = () => {
+        gtag('event', 'conversion', { 'send_to': 'AW-17940909501/iUWUCOWBq_YbEL2b8upC' });
+    };
+
     return (
         <>
             <>
@@ -23,6 +31,7 @@ export default function Hero() {
                                 href="https://wa.me/5519996911984"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                onClick={handleWhatsAppClick}
                                 className="flex items-center justify-center gap-2"
                             >
                                 <img
