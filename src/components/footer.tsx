@@ -1,12 +1,4 @@
-declare global {
-    function gtag(...args: any[]): void;
-}
-
 export default function Footer() {
-    const handleWhatsAppClick = () => {
-        gtag('event', 'conversion', { 'send_to': 'AW-17940909501/iUWUCOWBq_YbEL2b8upC' });
-    };
-
     return (
         <footer className="bg-primary-blue border-t border-gray-200 mt-20 text-white" id="contato">
             <div className="max-w-7xl mx-auto px-6 py-12">
@@ -42,7 +34,6 @@ export default function Footer() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     aria-label="WhatsApp da SalvTec"
-                                    onClick={handleWhatsAppClick}
                                     className="hover:text-black transition-colors"
                                 >
                                     WhatsApp: (19) 99691-1984
@@ -90,7 +81,6 @@ export default function Footer() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Abrir WhatsApp"
-                                onClick={handleWhatsAppClick}
                                 className="inline-flex items-center justify-center w-10 h-10 rounded-full border border-gray-200 hover:border-emerald-500 hover:bg-emerald-50 transition"
                             >
                                 <img src="/images/whatsapp.png" alt="WhatsApp" className="w-5 h-5" />
