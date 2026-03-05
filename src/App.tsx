@@ -29,6 +29,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/carreiras" element={<Carreiras />} />
+        <Route path="/carreiras/:jobSlug" element={<Carreiras />} />
       </Routes>
       <WhatsAppButton />
     </Router>

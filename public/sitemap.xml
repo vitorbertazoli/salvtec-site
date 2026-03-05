@@ -8,8 +8,26 @@
   </url>
   <url>
     <loc>https://www.salvtec.com.br/carreiras</loc>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-03-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.salvtec.com.br/carreiras/auxiliar-administrativo</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.salvtec.com.br/carreiras/tecnico-em-refrigeracao-nivel-i</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.salvtec.com.br/carreiras/auxiliar-tecnico-em-refrigeracao</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>
