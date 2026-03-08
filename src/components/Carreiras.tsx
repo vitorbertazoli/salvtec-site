@@ -32,6 +32,15 @@ const DEFAULT_SITE_SEO = {
   ogUrl: 'https://www.salvtec.com.br'
 };
 
+const COMPANY_ADDRESS = {
+  '@type': 'PostalAddress',
+  streetAddress: 'R. Luís Birochi, 25 - Conj. Hab. Santana II',
+  addressLocality: 'Campinas',
+  addressRegion: 'SP',
+  postalCode: '13105-744',
+  addressCountry: 'BR'
+};
+
 const upsertMetaTag = (selector: string, attributes: Record<string, string>) => {
   let element = document.head.querySelector<HTMLMetaElement>(selector);
 
@@ -226,12 +235,7 @@ export default function Carreiras() {
     },
     jobLocation: {
       '@type': 'Place',
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: 'Campinas',
-        addressRegion: 'SP',
-        addressCountry: 'BR'
-      }
+      address: COMPANY_ADDRESS
     },
     baseSalary: {
       '@type': 'MonetaryAmount',
