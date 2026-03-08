@@ -4,9 +4,9 @@ export function OrganizationSchema() {
         "@type": "LocalBusiness",
         name: "SalvTec",
         description: "Soluções profissionais de climatização e ar condicionado",
-        url: "https://salvtec.com.br",
+        url: "https://www.salvtec.com.br",
         telephone: "+5519996911984",
-        image: "https://salvtec.com.br/images/logo.png",
+        image: "https://www.salvtec.com.br/images/logo.png",
         address: {
             "@type": "PostalAddress",
             streetAddress: "R. Luís Birochi, 25 - Conj. Hab. Santana II",
@@ -43,7 +43,7 @@ export function BreadcrumbSchema() {
                 "@type": "ListItem",
                 position: 1,
                 name: "Home",
-                item: "https://salvtec.com.br",
+                item: "https://www.salvtec.com.br",
             },
         ],
     };
