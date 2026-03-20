@@ -92,46 +92,46 @@ export default function Carreiras() {
   const careersBaseUrl = 'https://www.salvtec.com.br/carreiras';
 
   const openPositions: JobPosition[] = [
-    {
-      id: 4,
-      slug: 'auxiliar-administrativo',
-      title: "Auxiliar Administrativo",
-      location: "Campinas, SP",
-      type: "Tempo Integral - CLT",
-      description: "Estamos em busca de um(a) Auxiliar Administrativo(a) para apoiar as rotinas de atendimento, organização de agenda e suporte comercial. Procuramos um perfil comunicativo, organizado e com foco em bom atendimento ao cliente.",
-      responsibilities: [
-        "Atendimento ao cliente via e-mail, WhatsApp e telefone",
-        "Agendamento de clientes",
-        "Elaboração de orçamentos com o apoio de um técnico",
-        "Realizar feedback pós-venda e pós-instalação",
-        "Prospecção de clientes"
-      ],
-      qualifications: [
-        "Ensino médio completo",
-        "Boa comunicação verbal e escrita",
-        "Experiência com atendimento ao cliente e rotinas administrativas",
-        "Organização, gestão de prioridades e atenção aos detalhes",
-        "Conhecimento básico em informática (e-mail, planilhas e ferramentas de mensagem)",
-        "Perfil proativo, responsável e com boa postura profissional"
-      ],
-      differentials: [
-        "Experiência com elaboração de orçamentos e propostas comerciais",
-        "Cursos técnicos ou profissionalizantes em Administração/Atendimento"
-      ],
-      whatWeOffer: [
-        "Possibilidade de trabalho remoto para esta vaga",
-        "Vale-transporte",
-        "Vale-refeição",
-        "Ambiente de trabalho colaborativo",
-        "Oportunidade de aprendizado e crescimento profissional",
-        "Regime de Contratação CLT"
-      ],
-      salaryRange: "R$1,621 a 2,000",
-      salaryMin: 1621,
-      salaryMax: 2000,
-      datePosted: '2026-03-05',
-      validThrough: '2026-12-31T23:59:59-03:00'
-    },
+    // {
+    //   id: 4,
+    //   slug: 'auxiliar-administrativo',
+    //   title: "Auxiliar Administrativo",
+    //   location: "Campinas, SP",
+    //   type: "Tempo Integral - CLT",
+    //   description: "Estamos em busca de um(a) Auxiliar Administrativo(a) para apoiar as rotinas de atendimento, organização de agenda e suporte comercial. Procuramos um perfil comunicativo, organizado e com foco em bom atendimento ao cliente.",
+    //   responsibilities: [
+    //     "Atendimento ao cliente via e-mail, WhatsApp e telefone",
+    //     "Agendamento de clientes",
+    //     "Elaboração de orçamentos com o apoio de um técnico",
+    //     "Realizar feedback pós-venda e pós-instalação",
+    //     "Prospecção de clientes"
+    //   ],
+    //   qualifications: [
+    //     "Ensino médio completo",
+    //     "Boa comunicação verbal e escrita",
+    //     "Experiência com atendimento ao cliente e rotinas administrativas",
+    //     "Organização, gestão de prioridades e atenção aos detalhes",
+    //     "Conhecimento básico em informática (e-mail, planilhas e ferramentas de mensagem)",
+    //     "Perfil proativo, responsável e com boa postura profissional"
+    //   ],
+    //   differentials: [
+    //     "Experiência com elaboração de orçamentos e propostas comerciais",
+    //     "Cursos técnicos ou profissionalizantes em Administração/Atendimento"
+    //   ],
+    //   whatWeOffer: [
+    //     "Possibilidade de trabalho remoto para esta vaga",
+    //     "Vale-transporte",
+    //     "Vale-refeição",
+    //     "Ambiente de trabalho colaborativo",
+    //     "Oportunidade de aprendizado e crescimento profissional",
+    //     "Regime de Contratação CLT"
+    //   ],
+    //   salaryRange: "R$1,621 a 2,000",
+    //   salaryMin: 1621,
+    //   salaryMax: 2000,
+    //   datePosted: '2026-03-05',
+    //   validThrough: '2026-12-31T23:59:59-03:00'
+    // },
     {
       id: 3,
       slug: 'tecnico-em-refrigeracao-nivel-i',
